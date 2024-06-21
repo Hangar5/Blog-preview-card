@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* ### Primary */
+    --Yellow: hsl(47, 88%, 63%);
+
+    /* ### Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+
+
+}
+/* Body */
+body{
+    min-height: 100vh;
+    grid-template-rows: 100% auto;
+    display: grid;
+    font-size: 16px;
+    place-items: center;
+    background-color: var(--Yellow);
+}
+/* Container */
+.container{
+    max-width: 384px;
+    width: 100%;
+    height: 522px;
+    padding: 23px;
+    border-radius: 20px;
+    box-shadow: 9px 9px 1px 0px rgba(0, 0, 0, 1);
+    border: 1px solid var(--Black);
+    background-color: var(--White);
+}
+/* CARD-IMG / IMG */
+.card-img img{
+    border-radius: 10px;
+    max-width: 336px;
+    width: 100%;
+}
+/* CONTAINER-INFO-CARD */
+.container-info-card{
+    display: flex;
+    flex-direction: column;
+}
+/* CATEGORY */
+.category{
+    background-color: var(--Yellow);
+    margin-top: 19px;
+    width: 82px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+    color: var(--Black);
+    font-family: 'Figtree', sans-serif;
+}
+/* TEXT */
+.text{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Figtree', sans-serif;
+}
+/* TITLE */
+.title{
+    margin: 17px 0;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+}
+/* SUB-TITLE */
+.sub-title{
+    color: var(--Grey);
+    line-height: 1.5;
+    font-family: 'Figtree', sans-serif;
+}
+/* CARD-PERFIL */
+.card-perfil{
+    display: flex;
+    gap: 12px;
+    margin-top: 23px;
+    align-items: center;
+}
+/* CARD-PERFIL / IMG */
+.card-perfil img{
+    width: 32px;
+    height: auto;
+}
+/* PERFIL-TEXT */
+.perfil-text{
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 14px;
+}
